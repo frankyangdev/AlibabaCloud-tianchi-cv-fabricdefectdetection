@@ -17,7 +17,9 @@
     - run.sh : 预测测试集，生成结果的脚本   sh run.sh
     - train.sh : 训练脚本  sh trian.sh 
  
-    
+# Docker操作
+
+Python 基础镜像 registry.cn-shanghai.aliyuncs.com/tcc-public/pytorch:1.4-cuda10.1-py3 如果下载比较慢，可由Docker image pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime代替，运行产生结果没有问题。
 
 
 ## 操作说明
